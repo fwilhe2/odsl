@@ -16,4 +16,4 @@ jobs:
           install-native: false
       - run: kotlinc -version
       - run: kotlinc src/Main.kt -include-runtime -d odsl.jar
-      - run: java -jar hello.jar
+      - run: java -jar odsl.jar
